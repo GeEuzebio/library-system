@@ -85,26 +85,18 @@ header{
     text-decoration: none;
     color: #FFF;
     font-size: 20px;
-    display: block;
+    display: inline-block;
     text-align: justify;
     padding: 30px 0px 50px 20px; /* topo | direita | inferior | esquerda */
 }
 
-header i{
-    color: #FFF;
-    padding-right: 30px;
-}
-
-
-.menu ul li a:hover{
+.menu ul li a:focus{
     background: #FFF;
     color: #5E17EB;
     border-radius: 10px;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
-.menu ul li a:hover i{
-    color: #5E17EB;
-}
+ 
 
 /*Principal*/
 #principal{
@@ -146,7 +138,7 @@ input::placeholder {
     color: #FFF;
     padding: 7px;
     text-align: center;
-    font-size: 20px;  
+    font-size: 20px; 
 }
 
 .separador-Vertical{
@@ -159,4 +151,9 @@ input::placeholder {
     color: #5E17EB;
     cursor: pointer;
     margin-left: -50px;
+}
+
+.icones{
+    width: 40px;
+    margin-left: 20px;
 }
