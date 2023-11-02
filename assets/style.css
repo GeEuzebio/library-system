@@ -107,6 +107,10 @@ header{
     border: 1px solid red;
 }
 
+.notificacao img{
+    width: 40px;
+}
+
 form{
     display: flex;
 }
