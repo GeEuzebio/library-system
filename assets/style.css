@@ -107,6 +107,10 @@ header{
     border: 1px solid red;
 }
 
+form{
+    display: flex;
+}
+
 .pesquisa input{
     width: 600px;
     height: 48px;
@@ -123,6 +127,11 @@ input::placeholder {
     color: #FFF;
     padding-left: 20px;
     font-weight: bold;
+}
+
+.pesquisa img{
+    width: 50px;
+    height: 50px;
 }
 
 /*Estilizando a tabela*/
@@ -147,13 +156,8 @@ input::placeholder {
 
 
 /*Formatando Icones*/
-#principal i{
-    color: #5E17EB;
-    cursor: pointer;
-    margin-left: -50px;
-}
-
 .icones{
     width: 40px;
     margin-left: 20px;
 }
+
