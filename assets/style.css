@@ -162,6 +162,20 @@ label{
     width: 200px;
 }
 
+.btn_emprestimo{
+    margin-left: 900px;
+    margin-top: -90px;
+}
+
+.btn_emprestimo input{
+    color: #FFF;
+    background: #5E17EB;
+    border-radius: 10px;
+    width: 328px;
+    height: 62px;
+}
+
+
 
 /*Estilizando a tabela*/
 .table{
