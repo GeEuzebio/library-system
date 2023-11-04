@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Emprestar Livro</title>
+        <title>Cadastrar Leitor</title>
 
         <!--Links-->
         <link rel="stylesheet" href="assets/style.css">
@@ -54,46 +54,15 @@
                     
                     <form class="pesquisa">
                         <div>
-                            <img src="assets/imagens-icons/pesquisa.png">
-                            <input type="text" placeholder="PESQUISAR POR UM LIVRO OU AUTOR"> 
-                        </div>
-                        <div>
-                            <label>Título:</label>
-                            <input type="text" id="titulo">
-                        </div>
-                        <div>
-                            <label>Autor:</label>
-                            <input type="text" id="autor">
-                        </div>
-                        <div id="pequeno">
-                            <label>Volume:</label>
-                            <input type="text" id="volume">
-                        </div>
-                        <div id="pequeno">
-                            <label>Código:</label>
-                            <input type="text" id="cod">
-                        </div>
-                        <div id="pequeno">
-                            <label>Data do empréstimo:</label>
-                            <input type="text" id="dataEmprestimo">
-
-                            <label>Data da devolução:</label>
-                            <input type="text" id="devolucao">
-                        </div>
-
-                        <hr class="hr">
-
-                        <div>
-                            <img src="assets/imagens-icons/pesquisa.png">
-                            <input type="text" placeholder="PESQUISAR POR NOME OU MATRÍCULA"> 
-                        </div>
-                        <div>
                             <label>Nome:</label>
                             <input type="text" id="nome">
                         </div>
                         <div id="pequeno">
                             <label>Matrícula:</label>
                             <input type="text" id="matricula">
+
+                             <input type="submit" value="Gerar" class="btn_gerar">
+
                         </div>
                         <div id="pequeno">
                             <label>Turma:</label>
@@ -105,7 +74,7 @@
                         </div>
 
                         <div class="btn_emprestimo">
-                            <input type="submit" value="Realizar empréstimo">
+                            <input type="submit" value="Cadastrar Leitor" id="cad_leitor">
                         </div>
                     </form>
                 </div>
