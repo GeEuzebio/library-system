@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Checar Empréstimo</title>
+
+        <!--Links-->
+        <link rel="stylesheet" href="assets/style.css">
+
+        <!--Links Icones-->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <nav class="nav-container">
+                    <div class="menu">
+                        <ul id="nagevacao">
+                            <li>
+                                <img src="assets/imagens-icons/home-white.png" class="icones" id="home">
+                                <a href="#">Início</a>
+                            </li>
+                            <li>
+                                <img src="assets/imagens-icons/emprestar-white.png" class="icones" id="emprestar">
+                                <a href="#">Emprestar Livro</a>
+                            </li>
+                            <li>
+                                <img src="assets/imagens-icons/emprestimo-white.png" class="icones" id="emprestimo">
+                                <a href="#">Checar Empréstimo</a>
+                            </li>
+                            <li>
+                                <img src="assets/imagens-icons/cadLeitor-white.png" class="icones" id="cadLeitor-white">
+                                <a href="#">Cadastrar Leitor</a>
+                            </li>
+                            <li>
+                                <img src="assets/imagens-icons/cadLivro-white.png" class="icones" id="cadLivro">
+                                <a href="#">Cadastrar Livro</a>
+                            </li>
+                            <li>
+                                <img src="assets/imagens-icons/relatorio-white.png" class="icones" id="relatorio">
+                                <a href="#">Relatórios</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <div id="principal">
+                    <div class="notificacao">
+                        <img src="assets/imagens-icons/notificacao.png">
+                    </div>
+                    
+                    <form class="pesquisa">
+                        <div>
+                            <img src="assets/imagens-icons/pesquisa.png">
+                            <input type="text" placeholder="PESQUISAR POR UM LIVRO OU AUTOR"> 
+                        </div>
+                        <div>
+                            <label>Título:</label>
+                            <input type="text" id="titulo">
+                        </div>
+                        <div>
+                            <label>Autor:</label>
+                            <input type="text" id="autor">
+                        </div>
+                        <div id="pequeno">
+                            <label>Volume:</label>
+                            <input type="text" id="volume">
+                        </div>
+                        <div id="pequeno">
+                            <label>Código:</label>
+                            <input type="text" id="cod">
+                        </div>
+                        <div id="pequeno">
+                            <label>Data do empréstimo:</label>
+                            <input type="text" id="dataEmprestimo">
+
+                            <label>Data da devolução:</label>
+                            <input type="text" id="devolucao">
+                        </div>
+
+                        <hr class="hr">
+
+                        <div>
+                            <img src="assets/imagens-icons/pesquisa.png">
+                            <input type="text" placeholder="PESQUISAR POR NOME OU MATRÍCULA"> 
+                        </div>
+                        <div>
+                            <label>Nome:</label>
+                            <input type="text" id="nome">
+                        </div>
+                        <div id="pequeno">
+                            <label>Matrícula:</label>
+                            <input type="text" id="matricula">
+                        </div>
+                        <div id="pequeno">
+                            <label>Turma:</label>
+                            <input type="text" id="Turma">
+                        </div>
+                        <div id="pequeno">
+                            <label>Turno:</label>
+                            <input type="text" id="turno">
+                        </div>
+                    </form>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
