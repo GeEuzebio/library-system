@@ -187,6 +187,20 @@ label{
     margin-top: 200px;
 }
 
+#relatorios{
+    display: grid;
+    grid-template-columns: 60% 60%;
+}
+
+#relatorios .btn_emprestimo input{
+    margin-left: 70px;
+    width: 400px;
+}
+
+#relatorios .btn_emprestimo{
+    margin-left: 20px;
+}
+
 /*Estilizando a tabela*/
 .table{
     width: 800px;
