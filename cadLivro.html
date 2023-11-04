@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastrar Livro</title>
+
+        <!--Links-->
+        <link rel="stylesheet" href="assets/style.css">
+
+        <!--Links Icones-->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <nav class="nav-container">
+                    <div class="menu">
+                        <ul id="nagevacao">
+                            <li>
+                                <img src="assets/imagens-icons/home-white.png" class="icones" id="home">
+                                <a href="#">Início</a>
+                            </li>
+                            <li>
+                                <img src="assets/imagens-icons/emprestar-white.png" class="icones" id="emprestar">
+                                <a href="#">Emprestar Livro</a>
+                            </li>
+                            <li>
+                                <img src="assets/imagens-icons/emprestimo-white.png" class="icones" id="emprestimo">
+                                <a href="#">Checar Empréstimo</a>
+                            </li>
+                            <li>
+                                <img src="assets/imagens-icons/cadLeitor-white.png" class="icones" id="cadLeitor-white">
+                                <a href="#">Cadastrar Leitor</a>
+                            </li>
+                            <li>
+                                <img src="assets/imagens-icons/cadLivro-white.png" class="icones" id="cadLivro">
+                                <a href="#">Cadastrar Livro</a>
+                            </li>
+                            <li>
+                                <img src="assets/imagens-icons/relatorio-white.png" class="icones" id="relatorio">
+                                <a href="#">Relatórios</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <div id="principal">
+                    <div class="notificacao">
+                        <img src="assets/imagens-icons/notificacao.png">
+                    </div>
+                    
+                    <form class="pesquisa">
+                        <div>
+                            <label>Título:</label>
+                            <input type="text" id="title">
+                        </div>
+
+                        <div>
+                            <label>Autor:</label>
+                            <input type="text" id="autor">
+                        </div>
+
+                        <div id="pequeno">
+                            <label>Volume:</label>
+                            <input type="text" id="volume">
+                        </div>
+
+                        <div id="pequeno">
+                            <label>Código:</label>
+                            <input type="text" id="cod">
+
+                             <input type="submit" value="Gerar" class="btn_gerar">
+
+                        </div>
+                        
+                        <div class="btn_emprestimo">
+                            <input type="submit" value="Cadastrar Livro" id="cad_leitor">
+                        </div>
+                    </form>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
