@@ -18,7 +18,9 @@ body{
 .hr{
     background: rgba(94, 23, 235, 0.15);
     height: 2px;
-    width: 900px;
+    width: 830px;
+    margin-bottom: 20px;
+    border: none;
 }
 
 /*LOGIN*/
@@ -67,16 +69,16 @@ body{
 
 /*MENU*/
 header{
-    width: 20%;
-    height: 800px;
+    width: 20vw;
+    height: 100vh;
     float: left;
     display: flex;
 }
 
 .nav-container{
     background: #5E17EB;
-    width: 100%;
-    height: 800px;
+    width: 20vw;
+    height: 95vh;
     border-radius: 10px;
     box-shadow: 0px 0px 4px 5px rgba(94, 23, 235, 0.25);
     margin: 13px 14px;
@@ -87,13 +89,19 @@ header{
     padding-top: 60px;
 }
 
+/* Analisar daqui até */
+.menu ul li{
+    margin-bottom: 40px;
+    border: 2px solid black;
+}
+
 .menu ul li a{
     text-decoration: none;
     color: #FFF;
-    font-size: 20px;
     display: inline-block;
     text-align: justify;
-    padding: 30px 0px 50px 20px; /* topo | direita | inferior | esquerda */
+    padding: 10px 0px 10px 5px; /* topo | direita | inferior | esquerda */
+    border: 1px solid red;
 }
 
 .menu ul li a:focus{
@@ -102,26 +110,33 @@ header{
     border-radius: 10px;
     box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
- 
+
+/* Testando aqui */
+.menu ul li i{
+    color: #FFF;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+/* Até aqui ------- */
+
 
 /*Principal*/
 main{
-    margin-left: -200px;
-    display: flex;
+    display: inline-block;
 }
 
 #principal{
     float: right;
-    height: 800px;
-    width: 70%;
-    padding: 50px 630px 600px 100px;
+    width: 80vw;
+    height: 100vh;
+    padding: 50px 630px 500px 100px;
     border: 1px solid red;
 }
 
 .notificacao img{
     width: 40px;
     margin-top: -40px;
-    margin-left: 1200px;
+    margin-left: 800px;
 }
 
 form{
@@ -129,8 +144,8 @@ form{
 }
 
 .pesquisa input{
-    width: 600px;
-    height: 48px;
+    width: 450px;
+    height: 40px;
     font-size: 20px;
     border-radius: 25px;
     background: rgba(94, 23, 235, 0.15);
@@ -139,7 +154,9 @@ form{
     margin-bottom: 15px;
     margin-left: 10px;
     text-transform: uppercase;
+    border: 1px solid red;
 }
+
 
 input::placeholder {
     color: #FFF;
@@ -147,10 +164,12 @@ input::placeholder {
     font-weight: bold;
 }
 
+
 .pesquisa img{
     width: 30px;
-    height: 30px;
+    border: 1px solid red;
 }
+
 
 label{
     color: #5E17EB;
@@ -163,7 +182,7 @@ label{
 }
 
 .btn_emprestimo{
-    margin-left: 900px;
+    margin-left: 460px;
     margin-top: -90px;
 }
 
@@ -189,16 +208,16 @@ label{
 
 #relatorios{
     display: grid;
-    grid-template-columns: 60% 60%;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 4rem;
 }
 
 #relatorios .btn_emprestimo input{
-    margin-left: 70px;
     width: 400px;
 }
 
 #relatorios .btn_emprestimo{
-    margin-left: 20px;
+    margin-left: -10px;
 }
 
 /*Estilizando a tabela*/
@@ -224,7 +243,7 @@ label{
 
 /*Formatando Icones*/
 .icones{
-    width: 40px;
+    width: 20px;
     margin-left: 20px;
 }
 
